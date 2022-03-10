@@ -49,13 +49,19 @@ img {
 
 .middle {
   display: flex;
-  flex-flow: column wrap;
-  align-items: center;
+  justify-content: center;
+  align-items: space-between;
 }
 
-.middle  .box {
+.midtest{
+  text-align: center;
+}
+
+.middle  box {
+  flex-direction: column;
+  background-color: pink;
   align-content: space-between;
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
 
 h2 { font-size: 41px;   line-height: 1.0em;}
